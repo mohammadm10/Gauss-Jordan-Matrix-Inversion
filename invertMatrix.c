@@ -174,9 +174,7 @@ void start_process_time(){
 
         gettimeofday(&start, NULL);
         float scale_factor = scale_factor_calculation(m_well);
-        //printf("Scale factor: %f\n", scale_factor);
         float condition_number = compute_condition_num(m_well, m_well_result);
-        //printf("Condition Number: %.8f\n", condition_number);
         scale_matrix(m_well, scale_factor);
 
         gettimeofday(&end, NULL);
