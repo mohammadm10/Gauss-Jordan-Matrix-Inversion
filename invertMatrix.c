@@ -163,7 +163,7 @@ int start_process(){
     
     return 0;
 }
-
+//Function to get the time it takes for the program to run
 void start_process_time(){
     double runtime = 0;
 
